@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'My-Roboto';
+    src: url(./assets/roboto-mono-v31-latin-regular.woff2) format('woff2');
+}
+
+body {
+    font-family: 'My-Roboto';
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    margin-bottom: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li input {
+    border-color: #cfbcc2;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    font-size: 1.5em;
+    width: 150px;
+    background-color: #DCB3C1;
+}
+
+nav ul li input:hover {
+    cursor: pointer;
+}
+
+.button-active {
+    background: rgb(127, 199, 19);
+    outline: none;
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+    -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+    box-shadow: inset 0px 0px 5px #c1c1c1;
+}
+
+#content {
+    padding: 0 5% 5% 5%;
+    /* background: linear-gradient(to bottom, #EBBFCE, #DCB3C1); */
+    margin: 2% 15% 0 15%;
+    display: flex;
+    flex-direction: column;
+}
+
+#content p {
+    font-size: 1.2em;
+}
+
+.headline {
+    align-self: center;
+}
+
+.hero-image-container {
+    align-self: center  ;
+}
